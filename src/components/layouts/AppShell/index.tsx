@@ -10,7 +10,7 @@ const AppShell = (props: AppShellProps) => {
     <main>
       <Navbar />
       {children}
-      <div>footer</div>
+      <div className="text-2xl font-semibold ml-5">footer</div>
     </main>
   );
 };
