@@ -1,9 +1,7 @@
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
 const ShopPage = () => {
   const { query } = useRouter();
-
-  
 
   console.log(query);
   return (
