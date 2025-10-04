@@ -5,7 +5,7 @@ import styles from "./Login.module.scss";
 const LoginViews = () => {
   const { push } = useRouter();
   const handlerLogin = () => {
-    push("/products");
+    push("/product");
   };
   return (
     <div className={styles.login}>
