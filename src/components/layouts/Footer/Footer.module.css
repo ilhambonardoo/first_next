@@ -1,110 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 .footer {
-  background-color: #1a1a1a;
-  color: #dcdcdc;
-  padding: 30px 0 15px 0; /* Padding atas dikurangi, bawah juga */
-  font-family: 'Poppins', sans-serif;
-  margin-top: auto; /* KUNCI: Mendorong footer ke bawah */
-}
-
-.footerContent {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.footerSection {
-  flex: 1;
-  min-width: 220px;
-  margin: 15px; /* Margin diperkecil */
-}
-
-.logo {
-  font-size: 1.6em; /* Ukuran font diperkecil */
-  font-weight: 600;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.footerSection h4 {
-  font-size: 1.1em; /* Ukuran font diperkecil */
-  color: #ffffff;
-  margin-bottom: 15px;
-  position: relative;
-  padding-bottom: 8px;
-}
-
-.footerSection h4::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 35px;
-  height: 2px;
-  background-color: #007bff;
-}
-
-.footerSection p {
-  line-height: 1.6;
-  font-size: 0.9em;
-}
-
-.footerSection ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footerSection ul li {
-  margin-bottom: 8px; /* Jarak antar link dikurangi */
-}
-
-.footerSection ul a {
-  color: #dcdcdc;
-  text-decoration: none;
-  font-size: 0.9em;
-  transition: color 0.3s ease, padding-left 0.3s ease;
-}
-
-.footerSection ul a:hover {
-  color: #007bff;
-  padding-left: 5px;
-}
-
-.socialIcons a {
-  color: #dcdcdc;
-  font-size: 1.3em; /* Ikon diperkecil */
-  margin-right: 15px;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.socialIcons a:hover {
-  color: #007bff;
-  transform: translateY(-2px);
-}
-
-.footerBottom {
+  background-color: #222;
+  color: #aaa;
   text-align: center;
-  padding-top: 15px;
-  margin-top: 20px;
-  border-top: 1px solid #333;
-  font-size: 0.8em;
-}
-
-@media (max-width: 768px) {
-  .footerContent {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .footerSection {
-    margin: 15px 0;
-  }
-  .footerSection h4::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  padding: 20px 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
